@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	// function cons(first,last,roll_number,sex,age){
+	// 	this.first=first;
+	// 	this.last=last;
+	// 	this.roll_number=roll_number;
+	// 	this.sex=sex;
+	// 	this.age=age;
+
+	// 	this.getbirthyear=function(){
+	// 		return this.first+this.last;
+	// 	}
+	// }
+	// let obj1=new cons("Mir","aaqib",22, "male",20);
+	// let obj2=new cons("Abc","aaa",20, "male",30);
+	// if(obj1.age < obj2.age){
+	// 	console.log(obj2.age);
+	// }
+	// else{
+	// 	console.log(obj1.age);
+	// }
+
+
+	// function a(min){
+	// 	if(obj1.age <= min){
+	// 		return true;
+	// 	}
+
+	// }
+
+	// let min=21;
+	// console.log(a(min))
+
+
+
+
+
+
+class cons{
+	constructor(first,last,roll_number,sex,age){
+		this.first=first;
+		this.last=last;
+		this.roll_number=roll_number;
+		this.sex=sex;
+		this.age=age;
+
+	}
+	getbirthyear(){
+		return `${this.first} + ${this.last}`;
+	}
+}
+
+let obj3=new cons("Mir", "aaqib", 25, "male", 20);
+console.log(obj3);
+console.log(obj3.getbirthyear());
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
